@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-color{
     color: orange;
 }
-section{
+.flexibole_conten{
     display: flex;
     margin-bottom: 150px;
 }
@@ -19,7 +22,7 @@ section{
 .hafe-continar img {
     width: 80%;
 }
-.hire_me{
+.buttum{
     text-decoration: none;
     text-transform: uppercase;
     color: white;
@@ -31,22 +34,52 @@ section{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
-.hafe_b{
+.hafe-continar{
     width: 50%;
+    padding-left: 2%;
 }
+
 .hafe_b img {
     width: 80%;
 }
-.diwnload_resume{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    background-image: linear-gradient(#FF9873 , #FF6C4E);
-    padding: 10px 40px;
-}
+
 .section2{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right
 
 }
+.section3{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.sectionc{
+    color: orange;
+}
+
+.sectionB{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 50px;
+    width: 40%;
+    box-shadow: 20px 20px 40px gray;
+    
+
+}
+.sectionb2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-image-slice: 1;
+
+}
+.sectionb1{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-image-slice: 1;
+
+}
+footer p {
+    text-align: center;
+}
+
