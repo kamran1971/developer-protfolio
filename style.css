@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .hafe-continar{
     width: 50%;
@@ -29,4 +30,23 @@ section{
 .top_banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.hafe_b{
+    width: 50%;
+}
+.hafe_b img {
+    width: 80%;
+}
+.diwnload_resume{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-image: linear-gradient(#FF9873 , #FF6C4E);
+    padding: 10px 40px;
+}
+.section2{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right
+
 }
